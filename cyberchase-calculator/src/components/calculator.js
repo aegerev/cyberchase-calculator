@@ -79,7 +79,7 @@ export const Calculator = () => {
 
         <button onClick={() => handleDigitClick('0')}>0</button>
 
-        <button >+</button> 
+        <button onClick={() => handleOperatorClick('+')}>+</button> 
         <button onClick={handleEquals}>=</button>
 
         <button onClick={handleClear}>C</button> 
