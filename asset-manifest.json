@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cyberchase-calculator/static/css/main.eae09eb0.css",
+    "main.js": "/cyberchase-calculator/static/js/main.2226d0c4.js",
+    "static/js/453.01cc99ea.chunk.js": "/cyberchase-calculator/static/js/453.01cc99ea.chunk.js",
+    "index.html": "/cyberchase-calculator/index.html",
+    "main.eae09eb0.css.map": "/cyberchase-calculator/static/css/main.eae09eb0.css.map",
+    "main.2226d0c4.js.map": "/cyberchase-calculator/static/js/main.2226d0c4.js.map",
+    "453.01cc99ea.chunk.js.map": "/cyberchase-calculator/static/js/453.01cc99ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eae09eb0.css",
+    "static/js/main.2226d0c4.js"
+  ]
+}
