@@ -75,7 +75,7 @@ export const Calculator = () => {
         <button onClick={() => handleDigitClick('2')}>2</button>
         <button onClick={() => handleDigitClick('3')}>3</button>
 
-        <button >-</button> 
+        <button onClick={() => handleOperatorClick('-')}>-</button> 
 
         <button onClick={() => handleDigitClick('0')}>0</button>
 
