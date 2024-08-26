@@ -63,13 +63,13 @@ export const Calculator = () => {
         <button onClick={() => handleDigitClick('8')}>8</button>
         <button onClick={() => handleDigitClick('9')}>9</button>
 
-        <button >/</button> 
+        <button onClick={() => handleOperatorClick('/')}>/</button> 
 
         <button onClick={() => handleDigitClick('4')}>4</button>
         <button onClick={() => handleDigitClick('5')}>5</button>
         <button onClick={() => handleDigitClick('6')}>6</button>
 
-        <button >*</button> 
+        <button onClick={() => handleOperatorClick('*')}>*</button> 
 
         <button onClick={() => handleDigitClick('1')}>1</button>
         <button onClick={() => handleDigitClick('2')}>2</button>
