@@ -6,6 +6,18 @@ export const Calculator = () => {
   const [operator, setOperator] = useState(null);
   const [waitingForSecondOperand, setWaitingForSecondOperand] = useState(false);
 
+  const handleDigitClick = (digit) => {
+    if(waitingForSecondOperand) {
+      setDisplayValue(digit);
+      setWaitingForSecondOperand(false);
+    } else {
+      setDisplayValue(displayValue === '0' ? digit : displayValue + digit);
+    }
+  }
+
+ const handleClear = () => {
+
+  }
 
   const performOperation = () => {
     const secondOperand = parseFloat(displayValue);
