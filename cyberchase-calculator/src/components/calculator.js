@@ -16,7 +16,9 @@ export const Calculator = () => {
   }
 
  const handleClear = () => {
-
+    setDisplayValue('0');
+    setWaitingForSecondOperand(false);
+    setFirstOperand(null);
   }
 
   const performOperation = () => {
@@ -80,7 +82,7 @@ export const Calculator = () => {
         <button >+</button> 
         <button onClick={handleEquals}>=</button>
 
-        <button >C</button> 
+        <button onClick={handleClear}>C</button> 
       </div>
     </div>
   );
